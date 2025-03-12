@@ -1,0 +1,1 @@
+<button type="button" onclick="window.location.href='registro.html';">Registro</button>

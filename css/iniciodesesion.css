@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7faff;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Diseño del contenido principal */
+main {
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section, .image-section {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Estilos del formulario de inicio de sesión */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.forgot-password {
+    color: #007bff;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-login img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #a0aec0;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sección de la imagen */
+.image-section {
+    background-color: #e6f0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .image-section {
+        display: none;
+    }
+}
+
+
+
+
+
